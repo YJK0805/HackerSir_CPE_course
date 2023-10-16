@@ -17,7 +17,7 @@ int main(){
 			int ans = 0;
 			for(i = i - 1; i >= 0; i--){
 				printf("%d",bin[i]);
-				// 如果是 1 就將變數加一
+				// 如果二進位位元是 1 就將變數加一
 				if(bin[i] == 1){
 					ans++;
 				}
